@@ -33,7 +33,7 @@ nav {
 	width: 90%;
 }
 
-.menu-responsivo2 {
+#menu-responsivo2 {
 	display: none;
 }
 
@@ -51,9 +51,7 @@ footer {
 	height: 50px;
 }
 
-.rodape {
-	margin-top: 300px;
-}
+
 
 /* Cabeçalho */
 
@@ -113,6 +111,7 @@ nav h3 {
 /*article */
 
 article {
+	width: 80%;
 	text-align: center;
 }
 
@@ -179,7 +178,7 @@ div select {
 }
 
 #nome, #email, #mensagem {
-	width: 50%;
+	width: 62%;
 	margin-top: 10px;
 }
 
@@ -219,12 +218,53 @@ div >h2 {
 	margin-left: 30px;
 }
 
+@media (max-width:810px){
+	
+	#formulario{
+		width: 70%;
+		margin-left: 3%;
+	}
+	
+	.texto-lateral{
+		margin-right: 4%;
+		width: 73%;
+		margin-bottom: 20px;
+	}
+
+	#texto-layout {
+		width: 80%;
+		text-align: center;
+		}
+		#texto-layout h1, #texto-layout p{
+			width: 90%;
+		}
+		
+		#texto-layout h1{
+			font-size: 1.8rem;
+	
+}
+#nome, #email, #mensagem {
+	width: 45%;
+	margin-top: 10px;
+}
+div>select{
+	margin-top: 10px;
+}
+}
+
 @media (max-width:500px){
 
 	header{
 		height: 210px;
 	}
+body {
+	min-width: 337px;
+}
 
+#texto-layout h1, #texto-layout p {
+	width: 70%;
+	text-align: center;
+}
 
 
 #divnav {
@@ -277,11 +317,12 @@ article {
 }
 
 #menu-responsivo2 {
+	display: block;
 	background-color: rgba(97, 97, 97, 0.295);
 	clear: both;
 	width: 95%;
 	text-align: center;
-	height: auto;
+	
 	padding-top: 10px;
 	margin-bottom: 10px;
 	margin-left: 2%;
@@ -305,12 +346,26 @@ article {
 #menu-responsivo2 div ul li a:hover {
 	background-color: #6AF7C3;
 }
+#nome, #email, #mensagem {
+	width: 75%;
+	margin-top: 10px;
+}
+div>select {
+	margin-top: 10px;
+}
+div>input {
+	font-size: 0.8rem;
+}
+#texto-layout {
+width: 99%;
+text-align: center;
+}
+#texto-layout h1, #texto-layout p{
+	width: 90%;
 }
 
-@media (max-width:1240px){
-	#menu-responsivo2{
-		display: none;
-	}
+#texto-layout h1{
+	font-size: 1.8rem;
+}
 
-	
 }

@@ -62,7 +62,7 @@ table th {
 
 @media (max-width:900px){
 	.table-container{
-		width: 120%;
+		width: 100%;
 		overflow: scroll;
 	}
 
